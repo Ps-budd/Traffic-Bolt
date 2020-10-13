@@ -55,6 +55,7 @@ Pipeline Consists of various modules:
 
 
 
-
+# Contact
+Feel free to contact [me](https://www.linkedin.com/in/adityadubey09/) if you need anything Or You can email me at adubey6@hawk.iit.edu
 
 
