@@ -8,7 +8,7 @@ Data Driven insights on traffic.
 3. [Data Processing](README.md#data_processing)
 4. [Ingestion](README.md#Ingestion)
 5. [sample data](README.md#sample_data)
-5. [Architecture setup](README.md#architecture_setup)
+5. [Enviroment setup](README.md#architecture_setup)
 6. [Contact](README.md#Contact)
 
 
@@ -27,4 +27,34 @@ This motivated me to provide the data driven insights to city traffic department
 
 
 <img src=“https://github.com/Ps-budd/Traffic-Bolt/blob/master/data%20processing/Architecture.JPG”>
+
+![GitHub Logo](https://github.com/Ps-budd/Traffic-Bolt/blob/master/data%20processing/Architecture.JPG)
+
+Pipeline Consists of various modules:
+1: Amazon S3 
+2: Spark
+3: Amazon Redshift
+4: Tableau
+
+# ETL Flow
+1: Data Collected from the API is moved to landing zone s3 buckets.
+2: ETL job has s3 module which copies data from landing zone to working zone- Spark
+3: Once the data is moved to working zone, spark job is triggered which reads the data from S3 and apply transformation and dothe necessary processing.
+4: processed data is put back to s3 buckets.
+5: ETL jobs picks up data from processed zone and stages it into the Redshift staging tables.
+6: Tableau reads data from redshift and shows the dashboards.
+
+
+# Environment Setup
+
+<b>Spark</b>  You can follow this [Spark Set up guide](https://blog.insightdatascience.com/simply-install-spark-cluster-mode-341843a52b88)
+
+
+<b>Setting up Redshift</b> You can follow the [AWS Guide](https://docs.aws.amazon.com/redshift/latest/gsg/rs-gsg-prereq.html) to run a Redshift cluster.
+
+
+
+
+
+
 
