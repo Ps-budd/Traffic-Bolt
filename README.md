@@ -26,5 +26,5 @@ This motivated me to provide the data driven insights to city traffic department
 # Architecture
 
 
-
+<img src=“https://github.com/Ps-budd/Traffic-Bolt/blob/master/data%20processing/Architecture.JPG”>
 
