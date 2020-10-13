@@ -37,17 +37,17 @@ Pipeline Consists of various modules:
 4: Tableau
 
 # ETL Flow
-1: Data Collected from the API is moved to landing zone s3 buckets.
-2: ETL job has s3 module which copies data from landing zone to working zone- Spark
-3: Once the data is moved to working zone, spark job is triggered which reads the data from S3 and apply transformation and dothe necessary processing.
-4: processed data is put back to s3 buckets.
-5: ETL jobs picks up data from processed zone and stages it into the Redshift staging tables.
-6: Tableau reads data from redshift and shows the dashboards.
+1: Data Collected from the API is moved to landing zone s3 buckets.  <br>
+2: ETL job has s3 module which copies data from landing zone to working zone- Spark  <br>
+3: Once the data is moved to working zone, spark job is triggered which reads the data from S3 and apply transformation and dothe necessary processing.  <br>
+4: processed data is put back to s3 buckets.  <br>
+5: ETL jobs picks up data from processed zone and stages it into the Redshift staging tables.  <br>
+6: Tableau reads data from redshift and shows the dashboards. <br>
 
 
 # Environment Setup
 
-<b>Spark</b>  You can follow this [Spark Set up guide](https://blog.insightdatascience.com/simply-install-spark-cluster-mode-341843a52b88)
+<b>Spark</b>  You can follow this [Spark Set up guide](https://blog.insightdatascience.com/simply-install-spark-cluster-mode-341843a52b88) 
 
 
 <b>Setting up Redshift</b> You can follow the [AWS Guide](https://docs.aws.amazon.com/redshift/latest/gsg/rs-gsg-prereq.html) to run a Redshift cluster.
