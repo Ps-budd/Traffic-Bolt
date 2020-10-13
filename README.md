@@ -23,3 +23,8 @@ On Mondays through Fridays, reversible express lanes from the inbound direction 
 This motivated me to provide the data driven insights to city traffic department to use the existing resourses effeciently.
 
 
+# Architecture
+
+
+
+
