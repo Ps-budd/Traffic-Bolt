@@ -1,6 +1,12 @@
 # Traffic Bolt
-Data Driven insights on traffic.
 
+### [Presentation Slides](https://docs.google.com/presentation/d/1snsZjZkWUjwdy_0o7bam-rFQLeCnHkwbf63Rf6z_234/edit#slide=id.g9dc222c2d3_0_0)
+* A analytical pipeline that provide data driven insights on city traffic.*
+1. How Weathercondition affecting city traffic.
+2. Crash/incidents happening on road affecting the city traffic.
+3. Fatal rate on street due to crash.
+4. Busiest streets.
+5. Traffic density on geo map.
 # Table of contents
 
 1. [Problem](README.md#Problem)
@@ -11,6 +17,25 @@ Data Driven insights on traffic.
 5. [Enviroment setup](README.md#architecture_setup)
 6. [Contact](README.md#Contact)
 
+ 
+### [Product- DASHBOARDS](https://public.tableau.com/profile/aditya.dubey3253#!/)
+```angular2
+      https://public.tableau.com/profile/aditya.dubey3253#!/
+```
+### [1.Traffic analysis on geo map](https://public.tableau.com/profile/aditya.dubey3253#!/vizhome/Trafficanalysisongeomap/Dashboard1)
+```angular2
+    https://public.tableau.com/profile/aditya.dubey3253#!/vizhome/Trafficanalysisongeomap/Dashboard1
+```
+
+### [2.Crash report analysis](https://public.tableau.com/profile/aditya.dubey3253#!/vizhome/crash_16033013839220/Dashboard2)
+```angular2
+    https://public.tableau.com/profile/aditya.dubey3253#!/vizhome/crash_16033013839220/Dashboard2
+```
+
+### [2.City Traffic analysis](https://public.tableau.com/profile/aditya.dubey3253#!/vizhome/Traffic_analysis_16032111787210/Dashboard1)
+```angular2
+    https://public.tableau.com/profile/aditya.dubey3253#!/vizhome/Traffic_analysis_16032111787210/Dashboard1
+```
 
 
 # Problem
