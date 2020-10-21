@@ -17,3 +17,7 @@
     https://public.tableau.com/profile/aditya.dubey3253#!/vizhome/crash_16033013839220/Dashboard2
 ```
 
+### [2.City Traffic analysis](https://public.tableau.com/profile/aditya.dubey3253#!/vizhome/Traffic_analysis_16032111787210/Dashboard1)
+```angular2
+    https://public.tableau.com/profile/aditya.dubey3253#!/vizhome/Traffic_analysis_16032111787210/Dashboard1
+```
