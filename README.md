@@ -1,8 +1,8 @@
-# Traffic Bolt
+# Traffic Bolt     <img src=“https://github.com/Ps-budd/Traffic-Bolt/blob/master/Images/traffic-main.png” width=90>
 
 ### [Presentation Slides](https://docs.google.com/presentation/d/1snsZjZkWUjwdy_0o7bam-rFQLeCnHkwbf63Rf6z_234/edit#slide=id.g9dc222c2d3_0_0)
 * A analytical pipeline that provide data driven insights on city traffic.*
-1. How Weathercondition affecting city traffic.
+1. Weather condition affecting city traffic.
 2. Crash/incidents happening on road affecting the city traffic.
 3. Fatal rate on street due to crash.
 4. Busiest streets.
@@ -72,7 +72,17 @@ Pipeline Consists of various modules:
 
 # Environment Setup
 
-<b>Spark</b>  You can follow this [Spark Set up guide](https://blog.insightdatascience.com/simply-install-spark-cluster-mode-341843a52b88) 
+<b>Spark</b>  
+Installation configuration:
+
+    Spark Version: spark-2.4.7-bin-hadoop2.7.tgz
+    Java Version: openjdk-8-jre-headless
+    Python Version: python3.7.9
+    Spark configure:
+```    
+$ spark-submit --packages com.amazonaws:aws-java-sdk:<version>,org.apache.hadoop:hadoop-aws:2.7.7 --conf spark.executor.extraJavaOptions=-Dcom.amazonaws.services.s3.enableV4=true --conf spark.driver.extraJavaOptions=-Dcom.amazonaws.services.s3.enableV4=true --master local spark_job.py
+```
+
 
 
 <b>Setting up Redshift</b> You can follow the [AWS Guide](https://docs.aws.amazon.com/redshift/latest/gsg/rs-gsg-prereq.html) to run a Redshift cluster.
@@ -81,6 +91,6 @@ Pipeline Consists of various modules:
 
 
 # Contact
-Feel free to contact [me](https://www.linkedin.com/in/adityadubey09/) if you need anything Or You can email me at adubey6@hawk.iit.edu
+Feel free to contact [me](https://www.linkedin.com/in/adityadubey09/) or You can email me at adubey6@hawk.iit.edu
 
 
