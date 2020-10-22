@@ -1,7 +1,7 @@
 #  ![Pipeline](https://github.com/Ps-budd/Traffic-Bolt/blob/master/Images/t1raffic-main.png)Traffic Bolt   ![Pipeline](https://github.com/Ps-budd/Traffic-Bolt/blob/master/Images/Traffic-Bolt.1jpg.jpg)
 
 ### [Presentation Slides](https://docs.google.com/presentation/d/1snsZjZkWUjwdy_0o7bam-rFQLeCnHkwbf63Rf6z_234/edit#slide=id.g9dc222c2d3_0_0)
-* A analytical pipeline that provide data driven insights on city traffic.*
+* A analytical pipeline that provide data driven insights on city traffic.
 1. Weather condition affecting city traffic.
 2. Crash/incidents happening on road affecting the city traffic.
 3. Fatal rate on street due to crash.
@@ -11,10 +11,11 @@
 
 1. [Problem](README.md#Problem)
 2. [Dashbaords](README.md#Dashbaords)
-3. [Pipeline flow](README.md#Pipeline flow)
-4. [Architecture](README.md#Architecture)
-5. [Enviroment setup](README.md#architecture_setup)
-6. [Contact](README.md#Contact)
+3. [Architecture](README.md#Architecture)
+4. [Pipeline flow](README.md#Pipeline_flow)
+5. [Data Resources](README.md##Data_Resources)
+6. [Enviroment setup](README.md#architecture_setup)
+7. [Contact](README.md#Contact)
 
 # Dashbaords
 ### [Product- DASHBOARDS](https://public.tableau.com/profile/aditya.dubey3253#!/)
@@ -64,6 +65,11 @@ Pipeline Consists of various modules:
 5: ETL jobs picks up data from processed zone and stages it into the Redshift staging tables.  <br>
 6: Tableau reads data from redshift and shows the dashboards. <br>
 
+## Data Resources
+* [Chicago Traffic Data](https://data.cityofchicago.org/Transportation/Chicago-Traffic-Tracker-Historical-Congestion-Esti/sxs8-h27x)
+* [Chicago Crash Report](https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d)
+* [Weather Data](https://w2.weather.gov/climate/local_data.php?wfo=lot)
+* [Intersections](https://catalog.data.gov/saml2_unauthorized) <br>Note: To accees this data you need permission from [chicago Data Portal](https://data.cityofchicago.org/).
 
 # Environment Setup
 
