@@ -1,4 +1,4 @@
-# Traffic Bolt     <img src=“https://github.com/Ps-budd/Traffic-Bolt/blob/master/Images/traffic-main.png” width=90>
+# Traffic Bolt   ![Pipeline](https://github.com/Ps-budd/Traffic-Bolt/blob/master/Images/Traffic-Bolt.jpg)
 
 ### [Presentation Slides](https://docs.google.com/presentation/d/1snsZjZkWUjwdy_0o7bam-rFQLeCnHkwbf63Rf6z_234/edit#slide=id.g9dc222c2d3_0_0)
 * A analytical pipeline that provide data driven insights on city traffic.*
@@ -49,11 +49,7 @@ This motivated me to provide the data driven insights to city traffic department
 
 
 # Architecture
-
-
-<img src=“https://github.com/Ps-budd/Traffic-Bolt/blob/master/Images/Architecture.JPG”>
-
-![GitHub Logo](https://github.com/Ps-budd/Traffic-Bolt/blob/master/data%20processing/Architecture.JPG)
+![Pipeline](https://github.com/Ps-budd/Traffic-Bolt/blob/master/Images/Architecture.JPG)
 
 Pipeline Consists of various modules:
 1: Amazon S3 
