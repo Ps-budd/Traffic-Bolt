@@ -13,11 +13,11 @@
 2. [Dashbaords](README.md#Dashbaords)
 3. [Architecture](README.md#Architecture)
 4. [Pipeline flow](README.md#Pipeline_flow)
-5. [Data Resources](README.md##Data_Resources)
+5. [Data Resources](README.md###Data_Resources)
 6. [Enviroment setup](README.md#architecture_setup)
 7. [Contact](README.md#Contact)
 
-# Dashbaords
+## Dashbaords
 ### [Product- DASHBOARDS](https://public.tableau.com/profile/aditya.dubey3253#!/)
 ```angular2
       https://public.tableau.com/profile/aditya.dubey3253#!/
@@ -38,7 +38,7 @@
 ```
 
 
-# Problem
+## Problem
 Every city in the world is facing problem of traffic congestion. Instead of investing any furthur resources (more bridges, widen roads, etc), If city can manages our existing resources effeciently, city traffic department can avoid the prolem of traffic congestion. So with the help of traffic data- data driven insights on traffic data is providing to city traffic department to solve the problem.
 
 
@@ -48,7 +48,7 @@ On Mondays through Fridays, reversible express lanes from the inbound direction 
 This motivated me to provide the data driven insights to city traffic department to use the existing resourses effeciently.
 
 
-# Architecture
+## Architecture
 ![Pipeline](https://github.com/Ps-budd/Traffic-Bolt/blob/master/Images/Architecture.JPG)
 
 Pipeline Consists of various modules:
@@ -57,7 +57,7 @@ Pipeline Consists of various modules:
 3: Amazon Redshift <br>
 4: Tableau<br> 
 
-# Pipeline flow
+## Pipeline flow
 1: Data Collected from the API is moved to landing zone s3 buckets.  <br>
 2: ETL job has s3 module which copies data from landing zone to working zone- Spark  <br>
 3: Once the data is moved to working zone, spark job is triggered which reads the data from S3 and apply transformation and do the necessary processing.  <br>
@@ -65,13 +65,13 @@ Pipeline Consists of various modules:
 5: ETL jobs picks up data from processed zone and stages it into the Redshift staging tables.  <br>
 6: Tableau reads data from redshift and shows the dashboards. <br>
 
-## Data Resources
+### Data Resources
 * [Chicago Traffic Data](https://data.cityofchicago.org/Transportation/Chicago-Traffic-Tracker-Historical-Congestion-Esti/sxs8-h27x)
 * [Chicago Crash Report](https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d)
 * [Weather Data](https://w2.weather.gov/climate/local_data.php?wfo=lot)
 * [Intersections](https://catalog.data.gov/saml2_unauthorized) <br>Note: To accees this data you need permission from [chicago Data Portal](https://data.cityofchicago.org/).
 
-# Environment Setup
+## Environment Setup
 
 <b>Spark</b>  
 Installation configuration:
@@ -91,7 +91,7 @@ $ spark-submit --packages com.amazonaws:aws-java-sdk:<version>,org.apache.hadoop
 
 
 
-# Contact
+## Contact
 Feel free to contact [me](https://www.linkedin.com/in/adityadubey09/) or You can email me at adubey6@hawk.iit.edu
 
 
