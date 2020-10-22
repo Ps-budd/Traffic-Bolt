@@ -10,15 +10,14 @@
 # Table of contents
 
 1. [Problem](README.md#Problem)
-2. [App_Dashboard](README.md#app_dashboard)
+2. [App_Dashboard](README.md # [Product- DASHBOARDS])
 3. [Data Processing](README.md#data_processing)
-4. [Ingestion](README.md#Ingestion)
-5. [sample data](README.md#sample_data)
+4. [Architecture](README.md#Architecture)
 5. [Enviroment setup](README.md#architecture_setup)
 6. [Contact](README.md#Contact)
 
  
-### [Product- DASHBOARDS](https://public.tableau.com/profile/aditya.dubey3253#!/)
+# [Product- DASHBOARDS](https://public.tableau.com/profile/aditya.dubey3253#!/)
 ```angular2
       https://public.tableau.com/profile/aditya.dubey3253#!/
 ```
