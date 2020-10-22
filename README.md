@@ -10,13 +10,13 @@
 # Table of contents
 
 1. [Problem](README.md#Problem)
-2. [App_Dashboard]
-3. [Data Processing](README.md#data_processing)
+2. [Dashbaords](README.md#Dashbaords)
+3. [Pipeline flow](README.md#Pipeline flow)
 4. [Architecture](README.md#Architecture)
 5. [Enviroment setup](README.md#architecture_setup)
 6. [Contact](README.md#Contact)
 
- 
+# Dashbaords
 ### [Product- DASHBOARDS](https://public.tableau.com/profile/aditya.dubey3253#!/)
 ```angular2
       https://public.tableau.com/profile/aditya.dubey3253#!/
@@ -31,7 +31,7 @@
     https://public.tableau.com/profile/aditya.dubey3253#!/vizhome/crash_16033013839220/Dashboard2
 ```
 
-### [2.City Traffic analysis](https://public.tableau.com/profile/aditya.dubey3253#!/vizhome/Traffic_analysis_16032111787210/Dashboard1)
+### [3.City Traffic analysis](https://public.tableau.com/profile/aditya.dubey3253#!/vizhome/Traffic_analysis_16032111787210/Dashboard1)
 ```angular2
     https://public.tableau.com/profile/aditya.dubey3253#!/vizhome/Traffic_analysis_16032111787210/Dashboard1
 ```
@@ -51,15 +51,15 @@ This motivated me to provide the data driven insights to city traffic department
 ![Pipeline](https://github.com/Ps-budd/Traffic-Bolt/blob/master/Images/Architecture.JPG)
 
 Pipeline Consists of various modules:
-1: Amazon S3 
-2: Spark
-3: Amazon Redshift
-4: Tableau
+1: Amazon S3 <br>
+2: Spark <br>
+3: Amazon Redshift <br>
+4: Tableau<br> 
 
-# ETL Flow
+# Pipeline flow
 1: Data Collected from the API is moved to landing zone s3 buckets.  <br>
 2: ETL job has s3 module which copies data from landing zone to working zone- Spark  <br>
-3: Once the data is moved to working zone, spark job is triggered which reads the data from S3 and apply transformation and dothe necessary processing.  <br>
+3: Once the data is moved to working zone, spark job is triggered which reads the data from S3 and apply transformation and do the necessary processing.  <br>
 4: processed data is put back to s3 buckets.  <br>
 5: ETL jobs picks up data from processed zone and stages it into the Redshift staging tables.  <br>
 6: Tableau reads data from redshift and shows the dashboards. <br>
